@@ -1,0 +1,46 @@
+{
+  "decisions": [
+    {
+      "agent": "product_manager",
+      "decision": "product_spec_created",
+      "rationale": "Simple, collaborative to\u2011do list for individuals and teams",
+      "data": {
+        "features": 6,
+        "user_stories": 6,
+        "must_have": [
+          "Task CRUD",
+          "User Authentication"
+        ]
+      }
+    },
+    {
+      "agent": "architect",
+      "decision": "architecture_created",
+      "rationale": "28 endpoints across 8 files",
+      "data": {
+        "endpoints": 28
+      }
+    },
+    {
+      "agent": "tech_lead",
+      "decision": "constraints_set",
+      "rationale": "The proposed architecture covers the core features and most user stories, but several contract violations and missing safeguards need addressing befor",
+      "data": {
+        "critical_issues": 2,
+        "auth_endpoints": 26,
+        "pagination_required": 5
+      }
+    },
+    {
+      "agent": "orchestrator",
+      "decision": "pipeline_complete",
+      "rationale": "V6 score: 79/100",
+      "data": {
+        "total_time": 16.94,
+        "can_export": true
+      }
+    }
+  ],
+  "conflicts": [],
+  "shared_context_keys": []
+}
